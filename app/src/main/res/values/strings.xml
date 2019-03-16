@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">NewGeoQuiz</string>
+
+    <string name="australia">Australia</string>
+    <string name="africa">Africa</string>
+    <string name="america">America</string>
+    <string name="asia">Asia</string>
+    <string name="desert">Desert</string>
+    <string name="canada">Canada</string>
+
+    <string name="question_australia">The highest waterfall in Australia is in Queensland state.</string>
+    <string name="question_africa">There is 80% of the River Nile is located in Egypt.</string>
+    <string name="question_america">Alaska has the most active volcanoes among all U.S. states.</string>
+    <string name="question_asia"> Asia is the largest continent.</string>
+    <string name="question_desert">Sahara desert is the driest place on Earth.</string>
+    <string name="question_canada">Canada has the most coastline.</string>
+
+    <string name="australia_true">true</string>
+
+
+
+</resources>
