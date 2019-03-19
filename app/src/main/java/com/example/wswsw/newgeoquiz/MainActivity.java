@@ -20,11 +20,11 @@ public class MainActivity extends AppCompatActivity {
         initialData();
 
         RecyclerView recyclerView=(RecyclerView) findViewById(R.id.recycler_View);
+       // keep the width and height of a recyclerView
         recyclerView.setHasFixedSize(true);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
-        // setting Adapter to the QuestionsAdapter that needs two bits of information
-        //1. List of questions
-        //2. The context to put them in
+
+        ////Adapter: to show the questions on the recyclerView
         recyclerView.setAdapter(new QuestionsAdapter(questions,this));
     }
 
